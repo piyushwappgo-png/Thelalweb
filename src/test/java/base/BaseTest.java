@@ -19,6 +19,7 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
 
+
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, Duration.ofSeconds(40));
     }
